@@ -1,0 +1,166 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: right;
+    padding: 15px 15px 0 0;
+    font-family: arial,sans-serif;
+
+}
+header a,i{
+    padding: 10px;
+    font-size: 18px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+header img{
+    border-radius: 50%;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.google{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.google p{
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 7 0px;
+
+}
+.google .one, .four{
+    color: #4285F4;
+    font-size: 90px;
+
+}
+.google .two, .six{
+    color: #DB4437;
+    font-size: 90px;
+
+}
+.google .three{
+    color: #F4B400;
+    font-size: 90px;
+
+}
+.google .five{
+    color: rgb(25, 192, 25);
+    font-size: 90px;
+
+}
+
+.content .search{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    padding: 5px; 
+    margin-bottom: 20px;
+}
+.content .search:hover{
+    background-color: #fff;
+
+   box-shadow:0 1px 6px rgba(32,33,36,.28)
+}
+.content .search input[type=text]{
+    box-sizing: border-box;
+    align-items: center;
+    width: 220px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+
+}
+
+.content input[type="button"]{
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+.content input[type=button]:hover{
+    border: 1px solid #6b6c6f;
+    box-shadow:0 1px 6px rgba(32,33,36,.28)
+
+}
+.content .language{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.content .language .action{
+    text-decoration: none;
+    cursor: default;
+    color: #000;
+}
+.content .language a{
+    text-decoration: none;
+}
+.content .language a:hover:not(.action){
+    text-decoration: underline;
+}
+
+.down{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+hr{
+    margin: 0px;
+}
+.ghana{
+    display: flex;
+    justify-content: left;
+    background: #f2f2f2;
+    font-family: arial,sans-serif;
+    padding-left: 20px;
+
+}
+.ghana p{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #f3f3f3;
+    font-family: arial,sans-serif;
+
+}
+
+footer .left, .right{
+    display: flex;
+    gap: 10px;
+}
+footer .left a, .right a{
+    text-decoration: none;
+    color: #000
+}
+
+footer .left a:hover, .right a:hover{
+    text-decoration: underline;
+}
+
